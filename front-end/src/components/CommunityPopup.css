@@ -1,0 +1,17 @@
+.Popup-box{
+    border: solid 1px black;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+
+.Content-button{
+    padding: 15px;
+}
+
+.Popup-text{
+    text-align: center;
+}

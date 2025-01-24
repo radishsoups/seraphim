@@ -1,0 +1,16 @@
+.account-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    text-align: left;
+    margin-right: auto;
+}
+
+.text {
+    text-align: right;
+    margin-left: auto;
+}

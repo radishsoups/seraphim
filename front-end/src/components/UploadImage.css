@@ -1,0 +1,21 @@
+.upload-image {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.image-title {
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.image-display {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}

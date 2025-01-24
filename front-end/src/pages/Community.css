@@ -1,0 +1,29 @@
+.communities{
+    padding: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.align{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: -10px;
+    font-size: 11pt;
+}
+
+.color-black{
+    border-color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.groups{
+    padding-top: 15px;
+    font-size: 11pt;
+}
+
+.padding{
+    padding: 10px;
+}

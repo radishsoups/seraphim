@@ -1,0 +1,13 @@
+.Nav-links{
+    list-style: none;
+    text-align: center;
+}
+
+.Nav-item{
+    border: solid 1px black;
+    display: inline-block;
+    padding: 12px 40px;
+    font-size: 20px;
+}
+
+

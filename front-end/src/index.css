@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'sera';
+  src: url('../public/fonts/Twitter_Chirp_Regular-Twitter_Chirp_Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'sera';
+  src: url('../public/fonts/Twitter_Chirp_Medium-Twitter_Chirp_Heavy.otf') format('opentype');
+  font-weight: 500; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sera';
+  src: url('../public/fonts/Twitter-Chirp_Bold.otf') format('opentype');
+  font-weight: 700; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sera';
+  src: url('../public/fonts/Twitter_Chirp-Twitter_Chirp_Heavy.otf') format('opentype');
+  font-weight: 800; 
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'sera';
+  background-color: #FAF0F3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,49 @@
+.Sub-community{
+    padding: 40px;
+}
+
+.Community-button{
+    margin-left: 65%;
+}
+
+.popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.Join-button{
+    border: solid 1px black;
+    width: 70px;
+    height: 30px;
+    background-color: white;
+}
+
+.Group-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+.name{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.description{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+

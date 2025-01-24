@@ -1,0 +1,11 @@
+.Content-box{
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 2em;
+}
+
+.Content-title{
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+}
