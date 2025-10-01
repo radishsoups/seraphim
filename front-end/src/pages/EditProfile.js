@@ -42,7 +42,7 @@ const EditProfile = (props) => {
           toast.success("Profile picture uploaded successfully!");
           setUser(prevUser => ({
             ...prevUser,
-            profilePicture: `${process.env.REACT_APP_SERVER_HOSTNAME}/${response.data.file.path}`,
+            profilePicture: `${process.env.REACT_APP_SERVER_HOSTNAME.replace(/\/+$/, "")}/${response.data.file.path}`,
           }));
         })
         .catch(error => {

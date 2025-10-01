@@ -13,7 +13,7 @@ const SubCommunityPage = (props) => {
 
     axios
       .get(
-        `${process.env.REACT_APP_SERVER_HOSTNAME}/api/community/${communityId}`
+        `${process.env.REACT_APP_SERVER_HOSTNAME.replace(/\/+$/, "")}/api/community/${communityId}`
       )
       .then((response) => {
         setData(response.data);
@@ -27,7 +27,7 @@ const SubCommunityPage = (props) => {
   return (
     <div className="w-[95%] m-[auto] flex flex-col justify-center items-center gap-6 p-8 md:w-[80%] lg:w-[70%] mt-[3em]">
       <SubCommunity
-        image={`${process.env.REACT_APP_SERVER_HOSTNAME}${data.communityPicture}`}
+        image={`${process.env.REACT_APP_SERVER_HOSTNAME.replace(/\/+$/, "")}${data.communityPicture}`}
         name={data.name}
         description={data.description}
       />

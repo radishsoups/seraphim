@@ -37,7 +37,7 @@ const Community = () => {
 
         //getting data from back-end 
         axiosInstance
-            .get(`${process.env.REACT_APP_SERVER_HOSTNAME}/api/community`)
+            .get(`${process.env.REACT_APP_SERVER_HOSTNAME.replace(/\/+$/, '')}/api/community`)
             .then(response => {
                 setData(response.data)
                 setOriginalData(response.data)
